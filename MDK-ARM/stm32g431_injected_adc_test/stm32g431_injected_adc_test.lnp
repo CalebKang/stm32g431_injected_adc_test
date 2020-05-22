@@ -1,0 +1,17 @@
+--cpu Cortex-M4.fp
+"stm32g431_injected_adc_test\startup_stm32g431xx.o"
+"stm32g431_injected_adc_test\main.o"
+"stm32g431_injected_adc_test\gpio.o"
+"stm32g431_injected_adc_test\adc.o"
+"stm32g431_injected_adc_test\stm32g4xx_it.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_utils.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_exti.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_gpio.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_adc.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_dma.o"
+"stm32g431_injected_adc_test\stm32g4xx_ll_pwr.o"
+"stm32g431_injected_adc_test\system_stm32g4xx.o"
+--library_type=microlib --strict --scatter "stm32g431_injected_adc_test\stm32g431_injected_adc_test.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32g431_injected_adc_test.map" -o stm32g431_injected_adc_test\stm32g431_injected_adc_test.axf

@@ -1,0 +1,1 @@
+stm32g431_injected_adc_test\startup_stm32g431xx.o: startup_stm32g431xx.s
